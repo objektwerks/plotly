@@ -4,7 +4,11 @@ Plotly
 
 Issues
 ------
-1. Layout().withTitle("Line Chart") is not displayed.
+>The current version of Plotly, ```3.0.1```, does not display ```Layout.title``` or ```Layout.withTitle```.
+
+>Plotly.js versions ```1.58.5``` and ```2.35.3``` do correctly display ```Layout.title``` and ```Layout.withTitle```.
+
+>Other issues may exist in the ```2.x.x``` branch. Development of **plotly-scala** stopped at ```1.54.1```.
 
 Install
 -------
@@ -44,4 +48,6 @@ Browser
 
 Reference
 ---------
-1. [ScalaJs-Vite Tutorial](https://www.scala-js.org/doc/tutorial/scalajs-vite.html)
+1. [plotly-scala](https://github.com/alexarchambault/plotly-scala)
+2. [plotly.js](https://www.npmjs.com/package/plotly.js/v/1.47.4?activeTab=versions)
+3. [ScalaJs-Vite Tutorial](https://www.scala-js.org/doc/tutorial/scalajs-vite.html)
