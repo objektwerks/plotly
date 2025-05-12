@@ -1,4 +1,4 @@
 package objektwerks
 
 @main def runPlotly: Unit =
-  LineChart()
+  LineChart("line-chart")
