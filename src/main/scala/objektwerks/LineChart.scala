@@ -7,15 +7,10 @@ object LineChart:
   def apply(): Unit =
     val line1 = Scatter(
       x = Seq(1, 2, 3, 4),
-      y = Seq(10, 15, 13, 17)
+      y = Seq(1, 3, 5, 7)
     )
     
-    val line2 = Scatter(
-      x = Seq(1, 2, 3, 4),
-      y = Seq(16, 5, 11, 9)
-    )
-    
-    val data = Seq(line1, line2)
+    val data = Seq(line1)
   
     val layout = Layout(
       title = "Line Chart"
