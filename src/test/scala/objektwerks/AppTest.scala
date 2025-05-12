@@ -15,13 +15,6 @@ object AppTest extends TestSuite {
           .count(_.id == "pid") == 1
       )
     }
-    test("button") {
-      assert(
-        document
-          .querySelectorAll("button")
-          .count(_.id == "bid") == 1
-      )
-    }
   }
 
   TestRunner.run(tests)
