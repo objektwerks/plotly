@@ -17,7 +17,7 @@ object LineChart:
     
     val data = Seq(line1, line2)
   
-    val layout = Layout().withTitle("Line Chart") // title is not displayed!
+    val layout = Layout().withTitle("Line Chart")
   
     val config = Config(responsive = true)
       
