@@ -1,12 +1,18 @@
 Plotly
 ------
->Plotly poc using ScalaJs and Scala 3.
+>Plotly poc using Scribe, uTest, ScalaJs and Scala 3.
 
 Install
 -------
 1. brew install node
-2. npm install vite
+2. npm install npm-check-updates
+3. npm install vite
 >See **package.json**.
+
+Update
+------
+1. ncu
+2. ncu -u
 
 Build
 -----
