@@ -1,9 +1,7 @@
 package objektwerks
 
-import plotly.Scatter
-import plotly.Plotly
+import plotly.{Config, Plotly, Scatter}
 import plotly.layout.Layout
-import plotly.Config
 
 @main def runPlotly: Unit =
   val line1 = Scatter(
