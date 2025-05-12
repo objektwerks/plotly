@@ -4,7 +4,9 @@ import org.scalajs.dom
 import org.scalajs.dom.document
 import org.scalajs.dom.HTMLDocument
 
-import plotly.*, layout.*, Plotly.*
+import plotly.Scatter
+import plotly.layout.Layout
+import plotly.Plotly.TraceSeqOps
 
 @main def runPlotly: Unit =
   document.addEventListener("DOMContentLoaded", { (_: dom.Event) =>
@@ -31,5 +33,3 @@ def build(document: HTMLDocument): Unit =
   )
   val layout = Layout().withTitle("Curves")
   plot.plot(div = "plot", layout = layout)
-
-  ()
