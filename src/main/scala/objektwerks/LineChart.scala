@@ -7,7 +7,7 @@ object LineChart:
   def apply(): Unit =
     val line1 = Scatter(
       x = Seq(1, 2, 3, 4),
-      y = Seq(1, 3, 5, 7)
+      y = Seq(3, 5, 7, 9)
     )
     
     val data = Seq(line1)
