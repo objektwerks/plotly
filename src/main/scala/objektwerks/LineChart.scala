@@ -18,7 +18,8 @@ object LineChart:
     val data = Seq(line1, line2)
   
     val layout = Layout(
-      title = "Line Chart"
+      title = "Line Chart",
+      showlegend = true
     )
   
     val config = Config(
