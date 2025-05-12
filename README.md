@@ -2,6 +2,10 @@ Plotly
 ------
 >Plotly poc using Scribe, uTest, ScalaJs and Scala 3.
 
+Issues
+------
+1. Layout().withTitle("Line Chart") is not displayed.
+
 Install
 -------
 1. brew install node
