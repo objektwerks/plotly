@@ -2,7 +2,6 @@ package objektwerks
 
 import plotly.{Config, Plotly, Scatter}
 import plotly.layout.Layout
-import plotly.layout.Axis
 
 object LineChart: 
   def apply(id: String): Unit =
@@ -19,9 +18,8 @@ object LineChart:
     val data = Seq(line1, line2)
   
     val layout = Layout(
-    ).withTitle("Line Chart")
-     .withXaxis(Axis(title = "line 1"))
-     .withYaxis(Axis(title = "line 2"))
+      title = "Line Chart"
+    )
   
     val config = Config(
       responsive = true
