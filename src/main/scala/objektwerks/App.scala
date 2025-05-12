@@ -14,4 +14,8 @@ def build(document: HTMLDocument): Unit =
   paragraph.id = "pid"
   paragraph.textContent = "Plotly Web App!"
   document.body.appendChild(paragraph)
+
+  val div = document.createElement("div")
+  div.id = "plot"
+  document.body.appendChild(div)
   ()
