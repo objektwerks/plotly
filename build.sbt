@@ -3,12 +3,10 @@ enablePlugins(ScalaJSPlugin)
 scalaVersion := "3.7.1-RC1"
 libraryDependencies ++= {
   Seq(
-    ("org.plotly-scala" %%% "plotly-render" % "0.8.5").cross(CrossVersion.for3Use2_13),
-    ("org.scala-js" %%% "scalajs-dom" % "2.8.0").cross(CrossVersion.for3Use2_13)
+    ("org.plotly-scala" %%% "plotly-render" % "0.8.5").cross(CrossVersion.for3Use2_13)
   )
 }
 scalacOptions ++= Seq(
   "-Wunused:all"
 )
-jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
 scalaJSUseMainModuleInitializer := true
