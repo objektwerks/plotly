@@ -2,6 +2,7 @@ package objektwerks
 
 import plotly.Scatter
 import plotly.Plotly
+import plotly.layout.Layout
 
 @main def runPlotly: Unit =
   val line1 = Scatter(
@@ -15,5 +16,9 @@ import plotly.Plotly
   )
   
   val data = Seq(line1, line2)
-  
-  Plotly.plot("plot", data)
+
+  val layout = Layout(
+    title = "Line Chart"
+  )
+    
+  Plotly.plot("plot", data, layout)
