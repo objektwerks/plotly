@@ -1,6 +1,6 @@
 Plotly
 ------
->Plotly poc using Scribe, uTest, ScalaJs and Scala 3.
+>Plotly ***poc*** using ScalaJs and Scala 3.
 
 Issues
 ------
