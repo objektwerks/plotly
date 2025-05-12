@@ -11,5 +11,4 @@ scalacOptions ++= Seq(
   "-Wunused:all"
 )
 jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
-testFrameworks += new TestFramework("utest.runner.Framework")
 scalaJSUseMainModuleInitializer := true
