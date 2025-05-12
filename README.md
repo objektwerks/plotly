@@ -1,6 +1,6 @@
-Scalajs.Vite
-------------
->ScalaJs-Vite feature tests using Scribe, uTest and Scala 3.
+Plotly
+------
+>Plotly poc using Scribe, uTest, ScalaJs and Scala 3.
 
 Install
 -------
