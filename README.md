@@ -1,15 +1,11 @@
 Plotly
 ------
->Plotly poc using Scribe, uTest, ScalaJs and Scala 3.
+>Plotly poc using ScalaJs and Scala 3.
 
 Install
 -------
 1. brew install node
->See **package.json**.
-
-Vite
-----
-1. npm install vite
+2. npm install vite
 >See **package.json**.
 
 Build
@@ -27,13 +23,9 @@ Dev
 
 Package
 -------
-1. sbt clean test fullLinkJS
+1. sbt clean compile fullLinkJS
 2. npm run build
 >See **dist** directory.
-
-Console
--------
-1. sbt clean compile fastLinkJS run
 
 Browser
 -------
