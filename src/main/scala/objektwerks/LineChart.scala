@@ -4,7 +4,7 @@ import plotly.{Config, Plotly, Scatter}
 import plotly.layout.Layout
 
 object LineChart: 
-  def apply: Unit =
+  def apply(): Unit =
     val line1 = Scatter(
       x = Seq(1, 2, 3, 4),
       y = Seq(10, 15, 13, 17)
