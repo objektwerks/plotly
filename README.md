@@ -20,7 +20,7 @@ Issues
 Cross Version
 -------------
 >The line ```("org.plotly-scala" %%% "plotly-render" % "0.8.5").cross(CrossVersion.for3Use2_13)``` allows for **plotly-scala** to be used in a
->Scala 3 project.
+>Scala 3 project. Yet additional Scala 3 dependencies **cannot** be added without incurring sbt versioning errors.
 
 Install
 -------
