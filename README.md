@@ -24,8 +24,8 @@ Cross Versioning
 
 >Yet additional Scala 3 dependencies **cannot** be added without incurring sbt versioning errors. Purportedly, this solution [Classpath Level](https://docs.scala-lang.org/scala3/guides/migration/compatibility-classpath.html) might resolve the issue.
 
->In other words, to use Scala 2 dependencies in a Scala 3 project requires building 2 or more modules with one or more
->```dependsOn(...)```. If you're thinking ***WTF, over?***, you've got it. :)
+>In other words, to use Scala 2 dependencies in a Scala 3 project likely ***requires*** building 2 or more modules with one or more
+>```dependsOn(...)```.
 
 Install
 -------
