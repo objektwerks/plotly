@@ -7,12 +7,12 @@ object LineChart:
   def apply(id: String): Unit =
     val series1 = Scatter(
       x = Seq(1, 2, 3, 4),
-      y = Seq(3, 5, 7, 9)
+      y = Seq(9, 7, 5, 3)
     ).withName("series 1")
 
     val series2 = Scatter(
       x = Seq(1, 2, 3, 4),
-      y = Seq(4, 6, 8, 10)
+      y = Seq(10, 8, 6, 4)
     ).withName("series 2")
     
     val data = Seq(series1, series2)
