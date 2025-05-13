@@ -1,6 +1,7 @@
 package objektwerks
 
-import plotly.{Bar, Plotly}
+import plotly.{Bar, Config, Plotly}
+import plotly.layout.Layout
 
 object BarChart:
   def apply(id: String): Unit =                
@@ -11,4 +12,13 @@ object BarChart:
       )
     )
 
-    Plotly.plot(id, data)
+    val layout = Layout().withTitle("Bar Chart")
+  
+    val config = Config(responsive = true)
+
+    Plotly.plot(
+      div = id,
+      data = data,
+      layout = layout,
+      config = config
+    )
