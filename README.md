@@ -26,7 +26,8 @@ Cross Versioning
 
 >Attempting to add additional Scala 2 or 3 dependencies results in sbt versioning errors. Purportedly, this article, [Classpath Level](https://docs.scala-lang.org/scala3/guides/migration/compatibility-classpath.html), provides a solution where others fail.
 
->**plotly-scala** appears to use custom Scala 2 macros via [data-class](https://github.com/alexarchambault/data-class).
+>**plotly-scala** appears to use custom Scala 2 macros via [data-class](https://github.com/alexarchambault/data-class), which likely
+>explains why a Scala 3 port has not been attempted.
 
 Install
 -------
