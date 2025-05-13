@@ -2,6 +2,13 @@ Plotly
 ------
 >Plotly ***poc*** using ScalaJs and Scala 3.
 
+Charts
+------
+>See ```./charts``` for images of:
+1. LineChart
+2. BarChart
+3. TimeSeriesChart
+
 Issues
 ------
 >The current version of **plotly.js**, ```3.0.1```, does not display **plotly-scala** ```Layout.title``` or ```Layout.withTitle```.
