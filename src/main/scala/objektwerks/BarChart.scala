@@ -7,8 +7,8 @@ object BarChart:
   def apply(id: String): Unit =                
     val data = Seq(
       Bar(
-        Seq("giraffes", "orangutans", "monkeys"),
-        Seq(20, 14, 23)
+        Seq("porsche", "ferrari", "maserati"),
+        Seq(10, 8, 6)
       )
     )
 
