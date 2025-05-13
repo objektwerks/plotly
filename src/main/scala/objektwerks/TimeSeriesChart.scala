@@ -6,8 +6,8 @@ import plotly.layout.Layout
 object TimeSeriesChart:
   def apply(id: String): Unit =
     val series = Scatter(
-      Seq("2025-05-10 09:31:00", "2025-05-11 10:41:00", "2025-05-12 11:51:00"),
-      Seq(1, 3, 6)
+      Seq("2025-05-10 09:21:00", "2025-05-10 10:31:00", "2025-05-10 11:41:00", "2025-05-10 12:51:00"),
+      Seq(1, 6, 3, 9)
     )
 
     val data = Seq(series)
