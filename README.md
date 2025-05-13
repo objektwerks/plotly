@@ -17,7 +17,7 @@ Plotly Versioning
 
 >Other issues may exist in the **plotly.js** ```2.x.x``` branch. None were encountered building the above charts.
 
->Development of **plotly-scala** appears to have stopped at **plotly.js** ```1.54.1```.
+>Development of **plotly-scala** appears to have stopped with **plotly.js** ```1.54.1```.
 
 Cross Versioning
 ----------------
