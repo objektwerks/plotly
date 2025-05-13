@@ -29,7 +29,7 @@ Cross Versioning
 >To use Scala 2 dependencies in a Scala 3 sbt project likely ***requires*** building 2 or more modules with one or more ```dependsOn(...)``` calls,
 >linking a ```plotly-scala / plotly.js``` module with a ***Laminar*** module, for instance. I have not tested this technique.
 
->Alternatively, **plotly-scala** can be copied / forked and compiled / released as a Scala 3 library.
+>Alternatively, **plotly-scala** can be copied / forked and compiled / released as a Scala 3 library. Problem solved.
 
 Install
 -------
