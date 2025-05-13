@@ -12,7 +12,7 @@ object LineChart:
 
     val series2 = Scatter(
       x = Seq(1, 2, 3, 4),
-      y = Seq(10, 8, 6, 4)
+      y = Seq(10, 4, 8, 6)
     ).withName("series 2")
     
     val data = Seq(series1, series2)
