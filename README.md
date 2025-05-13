@@ -15,7 +15,7 @@ Plotly Versioning
 
 >**plotly.js** versions ```1.58.5``` and ```2.35.3``` ***do correctly*** display **plotly-scala** ```Layout.title``` and ```Layout.withTitle```.
 
->Other issues may exist in the **plotly.js** ```2.x.x``` branch. Development of **plotly-scala** stopped at ```1.54.1```.
+>Other issues may exist in the **plotly.js** ```2.x.x``` branch. Development of **plotly-scala** appears to have stopped at **plotly.js** ```1.54.1```.
 
 Cross Versioning
 ----------------
