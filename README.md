@@ -21,7 +21,7 @@ Plotly Versioning
 
 Cross Versioning
 ----------------
->The sbt ```libraryDependencies``` line ```("org.plotly-scala" %%% "plotly-render" % "0.8.5").cross(CrossVersion.for3Use2_13)``` allows for
+>The sbt ```libraryDependencies``` line ```("org.plotly-scala" %%% "plotly-render" % "0.8.5").cross(CrossVersion.for3Use2_13)``` allows
 >**plotly-scala** to be used in a Scala 3 sbt project.
 
 >Yet additional Scala 3 dependencies ***cannot*** be added without incurring sbt versioning errors. Purportedly, this article, [Classpath Level](https://docs.scala-lang.org/scala3/guides/migration/compatibility-classpath.html), provides a solution where others fail.
