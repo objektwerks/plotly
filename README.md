@@ -13,7 +13,7 @@ Plotly Versioning
 -----------------
 >**plotly.js** ```3.0.1```, the current version, ***does not*** display **plotly-scala** ```Layout.title / .withTitle```.
 
->**plotly.js** versions ```1.58.5``` *and* ```2.35.3``` ***do correctly*** display **plotly-scala** ```Layout.title / .withTitle```.
+>**plotly.js** ```1.58.5``` *and* ```2.35.3``` ***do correctly*** display **plotly-scala** ```Layout.title / .withTitle```.
 
 >Other issues may exist in the **plotly.js** ```2.x.x``` branch. None were encountered building the above charts.
 
