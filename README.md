@@ -17,6 +17,11 @@ Issues
 
 >Other issues may exist in the **plotly.js** ```2.x.x``` branch. Development of **plotly-scala** stopped at ```1.54.1```.
 
+Cross Version
+-------------
+>The line ```("org.plotly-scala" %%% "plotly-render" % "0.8.5").cross(CrossVersion.for3Use2_13)``` allows for **plotly-scala** to be used in a
+>Scala 3 project.
+
 Install
 -------
 1. brew install node
