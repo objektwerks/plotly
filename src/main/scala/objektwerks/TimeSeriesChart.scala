@@ -1,6 +1,7 @@
 package objektwerks
 
-import plotly.{Plotly, Scatter}
+import plotly.{Config, Plotly, Scatter}
+import plotly.layout.Layout
 
 object TimeSeriesChart:
   def apply(id: String): Unit =
@@ -11,4 +12,13 @@ object TimeSeriesChart:
       )
     )
 
-    Plotly.plot(id, data)
+    val layout = Layout().withTitle("Time Series Chart")
+  
+    val config = Config(responsive = true)
+
+    Plotly.plot(
+      div = id,
+      data = data,
+      layout = layout,
+      config = config
+    )
