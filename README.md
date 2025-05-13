@@ -1,6 +1,6 @@
 Plotly
 ------
->Plotly ***poc*** using ScalaJs and Scala 3.
+>Plotly ***charts*** using ScalaJs and Scala 3.
 
 Charts
 ------
