@@ -26,7 +26,7 @@ Cross Versioning
 
 >Yet additional Scala 3 dependencies ***cannot*** be added without incurring sbt versioning errors. Purportedly, this article, [Classpath Level](https://docs.scala-lang.org/scala3/guides/migration/compatibility-classpath.html), provides a solution where others fail.
 
->Alternatively, **plotly-scala** could be copied / forked and compiled / released as a renamed Scala 3 library.
+>Alternatively, **plotly-scala** could be forked and released as a renamed Scala 3 library.
 
 Install
 -------
