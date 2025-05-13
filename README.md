@@ -9,16 +9,16 @@ Charts
 2. BarChart
 3. TimeSeriesChart
 
-Issues
-------
+Plotly Versioning
+-----------------
 >The current version of **plotly.js**, ```3.0.1```, does not display **plotly-scala** ```Layout.title``` or ```Layout.withTitle```.
 
 >**plotly.js** versions ```1.58.5``` and ```2.35.3``` do correctly display **plotly-scala** ```Layout.title``` and ```Layout.withTitle```.
 
 >Other issues may exist in the **plotly.js** ```2.x.x``` branch. Development of **plotly-scala** stopped at ```1.54.1```.
 
-Cross Version
--------------
+Cross Versioning
+----------------
 >The line ```("org.plotly-scala" %%% "plotly-render" % "0.8.5").cross(CrossVersion.for3Use2_13)``` allows for **plotly-scala** to be used in a
 >Scala 3 project. Yet additional Scala 3 dependencies **cannot** be added without incurring sbt versioning errors. Purportedly, this solution
 >[Classpath Level](https://docs.scala-lang.org/scala3/guides/migration/compatibility-classpath.html) might resolve the issue. In other words,
