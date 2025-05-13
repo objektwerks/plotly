@@ -26,8 +26,8 @@ Cross Versioning
 
 >Yet additional Scala 3 dependencies ***cannot*** be added without incurring sbt versioning errors. Purportedly, this article [Classpath Level](https://docs.scala-lang.org/scala3/guides/migration/compatibility-classpath.html) provides a solution.
 
->In other words, to use Scala 2 dependencies in a Scala 3 project likely ***requires*** building 2 or more modules with one or more
->```dependsOn(...)```.
+>In other words, to use Scala 2 dependencies in a Scala 3 sbt project likely ***requires*** building 2 or more modules with one or more ```dependsOn(...)```,
+>linking in a ```plotly-scala / plotly.js``` module with a ***Laminar*** module, for instance.
 
 Install
 -------
