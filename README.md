@@ -5,8 +5,8 @@ Plotly
 Charts
 ------
 >See ```./charts``` for images of:
-1. LineChart
-2. BarChart
+1. BarChart
+2. LineChart
 3. TimeSeriesChart
 
 Plotly Versioning
