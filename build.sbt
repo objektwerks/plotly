@@ -2,7 +2,7 @@ enablePlugins(ScalaJSPlugin)
 
 name := "plotly"
 version := "3.0.0"
-scalaVersion := "3.8.0-RC2"
+scalaVersion := "3.8.0-RC3"
 libraryDependencies ++= {
   Seq(
     ("org.plotly-scala" %%% "plotly-render" % "0.8.5").cross(CrossVersion.for3Use2_13)
